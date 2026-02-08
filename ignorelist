@@ -1,0 +1,487 @@
+###############
+# Programming #
+###############
+
+# Android
+.android
+Android/Sdk
+.gradle
+.gradle/caches
+/.m2
+/.m2/repository
+
+# Python
+/.virtualenvs
+#.python_history
+#.local/lib/python*
+#PycharmProjects/**/venv
+
+# Ruby gems
+#.rvm
+
+# Builds
+#_build
+
+# Rust artefacts
+.cargo
+.rustup
+
+# ccache, remove cache but keep config
+.ccache/?
+.ccache/tmp
+
+# golang
+go/pkg/mod/cache
+#.gvm
+
+# Erlang artefacts
+.kerl
+
+# Grails
+#.grails/
+#.grails_history
+
+
+###########
+# Editors #
+###########
+
+# Android Studio
+.AndroidStudio*/
+
+# Eclipse
+#Applications/eclipse*
+
+# Atom
+#.config/Atom/*Cache
+#.config/Atom/IndexedDB
+#.atom/compile-cache/
+
+# Komodo Edit
+#.komodoedit/*/codeintel/db
+#.komodoedit/*/host-*/*/codeintel
+#.komodoedit/*/XRE/Cache
+#.komodoedit/*/XRE/.activatestate/komodo edit/Crash Reports
+#.komodoedit/*/XRE/.activatestate/komodo edit/*/Cache
+#.komodoedit/*/XRE/.activatestate/komodo edit/*/minidump
+#.komodoedit/*/XRE/.parentlock
+#.komodoedit/*/XRE/extensions.rdf
+#.komodoedit/*/XRE/extensions.ini
+#.komodoedit/*/XRE/extensions.cache
+#.komodoedit/*/XRE/XPC.mfasl
+#.komodoedit/*/XRE/XUL.mfasl
+#.komodoedit/*/XRE/xpti.dat
+#.komodoedit/*/XRE/pluginreg.dat
+#.komodoedit/*/XRE/compreg.dat
+#.komodoedit/*/XRE/*.sqlite-journal
+#.komodoedit/*/pystdout.log
+#.komodoedit/*/pystderr.log
+#.komodoedit/*/history.sqlite.bak
+#.komodoedit/*/running.lock
+#.komodoedit/*/mutex.lock
+#.komodoedit/*/*.xmlc
+#.komodoedit/*/startup-env.tmp
+#.komodoedit/*/commandments.fifo
+#.komodoedit/*/history.sqlite
+
+# VS Code
+#.vscode-oss/extensions/*
+#.vscode/extensions/*
+#.config/Code - OSS/logs/
+#.config/Code/logs/
+#.config/Code/CachedData/*
+
+# VS Codium
+#.config/VSCodium/CachedExtensionVSIXs
+
+# Vim
+.vim/bundle/*
+.viminfo
+
+# Geany IDE - socket file
+#.config/geany/geany_socket_*
+
+
+##################
+# virtualization #
+##################
+
+## Docker
+#.docker/machine
+#.local/share/containers
+
+# Gnome Boxes
+#.local/share/gnome-boxes/images
+
+# LibVirt
+#.local/libvirt
+#.local/share/libvirt
+
+# VirtualBox
+#/VirtualBox*
+#.config/VirtualBox/VBoxSVC.log*
+#.config/VirtualBox/VBoxGuestAdditions_*
+
+# Vagrant
+#.vagrant
+#.vagrant.d
+
+
+##########
+# Gaming #
+##########
+
+# Steam
+.local/share/Steam
+.steam
+#/Steam
+#.var/app/com.valvesoftware.Steam/.local/share/Steam
+
+# Wine
+.wine
+
+# Umu
+.local/share/umu
+
+# Lutris
+.local/share/lutris/runners/wine/
+.local/share/lutris/runtime/
+
+# Heroic
+.config/heroic/tools/
+.config/heroic/images-cache/
+.config/heroic/store_cache/
+
+# Nvidia OpenGL Shader Cache
+.nv/GLCache
+
+# SC-Controller
+.config/scc/daemon.socket
+
+# Others
+#.minecraft
+#.technic
+#.PlayOnLinux
+
+
+##############
+# Multimedia #
+##############
+
+# YacReader
+.yacreaderlibrary
+
+# Spotify
+#.config/spotify/Users
+#.var/app/com.spotify.Client/config/spotify/Users
+
+# audio CDs cached info
+.cddb
+
+# User folders
+#/Videos
+#/Movies
+#/Downloads
+
+
+##########
+# System #
+##########
+
+# Synology
+@eaDir
+
+# Mounted file systems
+.gvfs
+.local/share/gvfs-metadata
+
+# Actual encrypted home directory
+/.Private
+
+# Session-specific
+/.dbus
+.cache
+.var/app/*/cache
+.var/app/*/.cache
+/.Trash
+.Trash-1*
+.local/share/Trash
+/Trash
+.Xauthority
+.ICEauthority
+.gksu.lock
+.pulse
+.pulse-cookie
+.esd_auth
+
+# Cached packages lists
+#.aptitude
+
+# Snap caches
+#.config/*/Cache
+
+# Node Package Manager cache
+.npm
+
+# Node Version Manager
+.nvm
+
+# Flash
+#.adobe
+#.macromedia
+
+# Errors from the current graphical session
+.xsession-errors
+.xsession-errors.old
+.wayland-errors
+
+# Recently used files
+.local/share/RecentDocuments
+.recently-used
+.recently-used.xbel
+recently-used.xbel
+.thumbnails
+.thumb
+Thumbs.db
+.DS_Store
+.localised
+.CFUserTextEncoding
+.zcompdump*
+.wget-hsts
+
+# Common Unix Printing System
+/.cups
+
+# run-time configuration information for Subversion
+/.subversion
+
+# Lock / Pid files
+.VeraCrypt-lock-*
+
+# History files
+#.bash_history
+#.zsh_history
+#.mysql_history
+
+# Keychain dir (manage SSH and GPG keys, front-end to ssh-agent and ssh-add)
+/.keychain
+
+# GnuPG
+.gnupg/rnd
+.gnupg/random_seed
+.gnupg/.#*
+.gnupg/*.lock
+.gnupg/gpg-agent-info-*
+
+# Indexers
+.local/share/baloo
+.local/share/zeitgeist
+.local/share/akonadi
+
+# Cached applets
+.guayadeque/cache.db
+.java/deployment/cache
+.icedteaplugin
+.icedtea
+.gnome2/epiphany/favicon_cache
+
+# Other temporary files
+nohup.out
+
+
+########################
+# Desktop environments #
+########################
+
+# KDE - Recent documents
+.kde/share/apps/RecentDocuments
+.kde4/share/apps/RecentDocuments
+# KDE - Klipper clipboard historic
+.kde/share/apps/klipper
+.kde4/share/apps/klipper
+.local/share/klipper
+# KDE - PDF saved scrolling positions
+.kde/share/apps/okular/docdata
+.kde/share/apps/gwenview/recentfolders
+.kde4/share/apps/okular/docdata
+.kde4/share/apps/gwenview/recentfolders
+.local/share/okular/docdata
+.local/share/org.kde.gwenview/recentfolders
+# KDE - Cached other users' profile pics
+.kde/share/apps/kmess/displaypics
+.kde4/share/apps/kmess/displaypics
+# KDE - Cached emoticons of others
+.kde/share/apps/kmess/customemoticons
+.kde4/share/apps/kmess/customemoticons
+# KDE - Unlocked Plasma Vaults
+/Vaults
+# KDE - Nepomuk (file search/indexer, obsolete)
+#.kde/share/apps/nepomuk
+
+# Gnome - Tracker data files
+.local/share/tracker
+
+
+############
+# Browsers #
+############
+
+# Firefox - Cache
+.mozilla/firefox/*/Cache
+.mozilla/firefox/*/storage/default
+# Firefox - Crashes dumps
+.mozilla/firefox/*/minidumps
+# Firefox - Session
+.mozilla/firefox/*/.parentlock
+# Firefox - Phishing database
+.mozilla/firefox/*/urlclassifier3.sqlite
+# Firefox - Blacklisted extensions
+.mozilla/firefox/*/blocklist.xml
+# Firefox - Extension database
+.mozilla/firefox/*/extensions.sqlite
+.mozilla/firefox/*/extensions.sqlite-journal
+.mozilla/firefox/*/extensions.rdf
+.mozilla/firefox/*/extensions.ini
+.mozilla/firefox/*/extensions.cache
+# Firefox - Cached UI data
+.mozilla/firefox/*/XUL.mfasl
+.mozilla/firefox/*/XPC.mfasl
+.mozilla/firefox/*/xpti.dat
+.mozilla/firefox/*/compreg.dat
+# Firefox - Cached plugin data
+.mozilla/firefox/*/pluginreg.dat
+
+# SeaMonkey - Cache
+#.mozilla/seamonkey/*/Cache
+# SeaMonkey - Crashes dumps
+#.mozilla/seamonkey/*/minidumps
+# SeaMonkey - Session
+#.mozilla/seamonkey/*/.parentlock
+# SeaMonkey - Blacklisted extensions
+#.mozilla/seamonkey/*/blocklist.xml
+# SeaMonkey - Extension database
+#.mozilla/seamonkey/*/extensions.sqlite
+#.mozilla/seamonkey/*/extensions.rdf
+#.mozilla/seamonkey/*/extensions.ini
+# SeaMonkey - Cached UI data
+#.mozilla/seamonkey/*/xpti.dat
+#.mozilla/seamonkey/*/compreg.dat
+# SeaMonkey - Cached plugin data
+#.mozilla/seamonkey/*/pluginreg.dat
+
+# Opera
+#.opera/temporary_downloads
+#.opera/cache
+#.opera/thumbnails
+#.opera/opcache
+#.opera/icons
+#.opera/application_cache
+#.opera/widgets/*/cache
+#.opera/lock
+
+# Tor
+#.local/share/torbrowser
+
+# Google Chrome:
+#.config/google-chrome/ShaderCache
+#.config/google-chrome/*/Local Storage
+#.config/google-chrome/*/Session Storage
+#.config/google-chrome/*/Application Cache
+#.config/google-chrome/*/History Index *
+#.config/google-chrome/*/Service Worker/CacheStorage
+#.config/google-chrome/*/WebStorage/*/CacheStorage
+
+# Chromium:
+.config/chromium/*/Local Storage
+.config/chromium/*/Session Storage
+.config/chromium/*/Service Worker/CacheStorage
+.config/chromium/*/Application Cache
+.config/chromium/*/History Index *
+#/snap/chromium/common/.cache
+#/snap/chromium/*/.config/chromium/*/Service Worker/CacheStorage
+#/snap/chromium/*/.local/share/
+
+# Brave
+#.config/BraveSoftware/Brave-Browser/*/Feature Engagement Tracker/
+#.config/BraveSoftware/Brave-Browser/*/Local Storage/
+#.config/BraveSoftware/Brave-Browser/*/Service Worker/CacheStorage/
+#.config/BraveSoftware/Brave-Browser/*/Session Storage/
+#.config/BraveSoftware/Brave-Browser/Safe Browsing/
+#.config/BraveSoftware/Brave-Browser/ShaderCache/
+
+
+##########
+# Office #
+##########
+
+# Thunderbird cache
+.thunderbird/*/Cache
+
+# LibreOffice cache
+.config/libreoffice/4/cache
+
+
+#################
+# Electron Apps #
+#################
+
+.config/**/blob_storage
+.config/**/Application Cache
+.config/**/Cache
+.config/**/CachedData
+.config/**/Code Cache
+.config/**/GPUCache
+.config/**/Service Worker/CacheStorage
+.var/app/**/blob_storage
+.var/app/**/Application Cache
+.var/app/**/Cache
+.var/app/**/CachedData
+.var/app/**/Code Cache
+.var/app/**/GPUCache
+.var/app/**/Service Worker/CacheStorage
+
+
+##############
+# Other apps #
+##############
+
+# Google Earth:
+#.googleearth/Temp
+#.googleearth/Cache
+
+# Riot
+#/snap/riot-web/
+
+# Pidgin
+#.purple/icons
+
+# freshplayerplugin LSO
+.config/freshwrapper-data/Shockwave Flash/WritableRoot/#SharedObjects
+
+# Citrix ICA Client
+#.ICAClient/logs
+#.ICAClient/.tmp
+#.ICAClient/cache/zlcache
+
+# LBRY
+#.config/lbry
+#.local/share/lbry/lbrynet
+
+# Nobit
+#.local/share/notbit
+
+# Twister
+#.twister
+#/twister
+
+# NextCloud
+#/Nextcloud
+
+# Popcorntime
+#*Popcorntime*
+
+# aMule
+#/.aMule
+
+# Scribus
+#/Scribus

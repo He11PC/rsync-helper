@@ -1,0 +1,4 @@
+These are just simple scripts; do with them what you will.
+
+DISCLAIMER:
+These scripts are provided "as is" and carry no warranties.
