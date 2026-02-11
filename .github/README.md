@@ -41,4 +41,4 @@ You can also create a shortcut with an icon on your desktop environment (don't f
 :warning: **The rsync commands are commented out inside the script to prevent a missconfiguration disaster**
 
 > Run the script, try a simulation and a backup, then verify if the rsync commands are correct.  
-> If they are, edit the script and uncomment the rsync commands on lines 340 and 352 by removing the # character to enable them.
+> If they are, edit the script and uncomment the rsync commands on lines 349 and 361 by removing the # character to enable them.

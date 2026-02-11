@@ -1,5 +1,14 @@
 #!/bin/bash
 
+###############################################################
+# FILE          : backup.sh
+# DESCRIPTION   : Facilitate your regular rsync backups
+# AUTHOR        : HellPC
+# DATE          : 2026.02.11
+# README        : https://github.com/He11PC/rsync-helper#readme
+# LICENSE       : GPLv3
+###############################################################
+
 
 # --------------
 # Initialisation
