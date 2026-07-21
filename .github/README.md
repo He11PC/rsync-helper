@@ -4,7 +4,7 @@ I've created this script to make my regular rsync backups easier.
 
 ---
 
-## Files:
+## Files
 
 The script requires 3 files to function.
 
@@ -16,7 +16,7 @@ The script requires 3 files to function.
 
 ---
 
-## Usage:
+## Usage
 
 - Download the script corresponding to your language
 
