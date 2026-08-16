@@ -2,7 +2,7 @@
 
 I've created this script to make my regular rsync backups easier.
 
----
+<br>
 
 ## Files
 
@@ -14,7 +14,7 @@ The script requires 3 files to function.
 
 - **ignorelist:** directories you don't want to backup, inspired by **rubo77** list. Visit [rsync-homedir-excludes](https://github.com/rubo77/rsync-homedir-excludes) for more information
 
----
+<br>
 
 ## Usage
 
@@ -35,8 +35,7 @@ The script requires 3 files to function.
 
 You can also create a shortcut with an icon on your desktop environment (don't forget to execute in a terminal).
 
-&nbsp;
-&nbsp;
+<br>
 
 :warning: **The rsync commands are commented out inside the script to prevent a missconfiguration disaster**
 
